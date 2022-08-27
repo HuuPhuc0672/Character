@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/ic_tapMot"
+        android:icon="@drawable/ig_img"
+        android:title="Image"/>
+    <item android:id="@+id/ic_tapHai"
+        android:icon="@drawable/ig_hot"
+        android:title="Image Hot"/>
+</menu>
