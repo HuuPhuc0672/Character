@@ -37,20 +37,30 @@ class Man1Fragment : Fragment() {
         recVie1.layoutManager =GridLayoutManager(requireContext(),2)
         figurelist=ArrayList()
 
-
-        figurelist.add(Figure(R.drawable.ic_launcher_background,"11111","11"))
-        figurelist.add(Figure(R.drawable.ic_launcher_background,"2222","22"))
-        figurelist.add(Figure(R.drawable.ic_launcher_background,"3333","33"))
-        figurelist.add(Figure(R.drawable.ic_launcher_background,"44444","44"))
-        figurelist.add(Figure(R.drawable.ic_launcher_background,"555555","55"))
-        figurelist.add(Figure(R.drawable.ic_launcher_background,"66666","66"))
-        figurelist.add(Figure(R.drawable.ic_launcher_background,"77777","77"))
-
+        setData()
       //  recVie1.adapter = FigureAdater(requireContext(),figurelist)
-
         figureAdater = FigureAdapter(requireContext(),figurelist)
         recVie1.adapter =figureAdater
 
+    }
+
+
+
+
+
+
+    fun setData(){
+        figurelist.add(Figure(R.drawable.img_1,"$ 2500",getString(R.string.nhanvet)))
+        figurelist.add(Figure(R.drawable.img_2,"$ 2400",getString(R.string.nhanvet)))
+        figurelist.add(Figure(R.drawable.img_3,"$ 2500",getString(R.string.nhanvet)))
+        figurelist.add(Figure(R.drawable.img_4,"$ 2300",getString(R.string.nhanvet)))
+        figurelist.add(Figure(R.drawable.img_5,"$ 2000",getString(R.string.nhanvet)))
+        figurelist.add(Figure(R.drawable.img_6,"$ 2580",getString(R.string.nhanvet)))
+        figurelist.add(Figure(R.drawable.img_7,"$ 2680",getString(R.string.nhanvet)))
+        figurelist.add(Figure(R.drawable.img_8,"$ 2500",getString(R.string.nhanvet)))
+        figurelist.add(Figure(R.drawable.img_9,"$ 1400",getString(R.string.nhanvet)))
+        figurelist.add(Figure(R.drawable.img_10,"$ 2600",getString(R.string.nhanvet)))
+        figurelist.add(Figure(R.drawable.img_11,"$ 2540",getString(R.string.nhanvet)))
     }
 
 
